@@ -1,4 +1,4 @@
-var argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
+const argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
 
 
 buttonRock = document.getElementById('button-rock');
@@ -14,7 +14,7 @@ buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); }
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  var argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
+  const argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
 
 /**
  * Describe this function...
