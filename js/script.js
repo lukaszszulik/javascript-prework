@@ -1,8 +1,8 @@
 'use strict';
 
 const  
-       buttonPaper = document.getElementById('button-paper');
-       buttonRock = document.getElementById('button-rock');
+       buttonPaper = document.getElementById('button-paper'),
+       buttonRock = document.getElementById('button-rock'),
        buttonScissors = document.getElementById('button-scissors');
 
 
@@ -18,7 +18,7 @@ buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); }
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  let argComputerMove, argMoveId, argPlayerMove, playerInput, argButtonName;
+  let argComputerMove, argMoveId, argPlayerMove, playerInput;
 
 /**
  * Describe this function...
