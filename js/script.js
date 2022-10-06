@@ -18,7 +18,6 @@ buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); }
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  let argComputerMove, argMoveId, argPlayerMove, playerInput;
 
 /**
  * Describe this function...
@@ -59,7 +58,7 @@ function displayResult(argPlayerMove, argComputerMove) {
 
 'Wygrywasz!';
  const playerMove = argButtonName;
-console.log('wybór ruchu gracza to: ' + playerInput);
+console.log('wybór ruchu gracza to: ');
 
 console.log('ruch gracza to: ' + playerMove);
 const randomNumber = Math.floor(Math.random() * 3 + 1);
